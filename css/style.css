@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 9;
+    box-shadow: 1px 1px 4px grey;
+}
+
+.sect {
+    background-position: center;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.hero-box {
+    background-image: url(../img/SvWWN.png);
+}
+
+.display-box {
+    display: flex;
+    position: relative;
+    height: 480px;
+    margin-top: 60px;
+    border-radius: 8px;
+    background-color: rgb(234, 254, 255);
+}
+
+.absolute-section {
+    position: absolute;
+    left: -2%;
+    top: 80px;
+    height: 95%;
+    width: 50%;
+    background-color: rgb(255, 235, 218);
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 8px;
+}
+
+.absolute-section, .text-section {
+    overflow-y: auto;
+}
+
+.section1-box {
+    background-image: url(../img/html-color-codes-color-tutorials-hero.jpg);
+}
+
+.section1 .absolute-section {
+    left: 52%;
+    background-color: bisque;
+}
+
+.section2-box {
+    background-image: url(../img/03-deep-blue-1024x576.jpg);
+}
+
+.footer-divider {
+    background-color: #202023;
+    height: 60px;
+    margin-top: 2px;
+}
+
+footer {
+    background-color: #202023;
+    height: 240px;
+    margin-top: 2px;
+}
